@@ -12,3 +12,12 @@ Filename:
 FLAC format:
   - checksum - vhevk if the file contains its checksum, if not it will decompress / recompress with it
   - oversampling - check if the file is suspected to be an oversampling (relies in external code)
+
+Virtual Enviroment:
+To create a virtual environment yourself you can use Python's venv:
+
+python -m venv my-venv
+my-venv/bin/pip install some-python-library
+
+for this project it is: validatemusicfiles/bin/python3 chevkmusivfiles.py
+

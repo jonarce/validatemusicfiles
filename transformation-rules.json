@@ -1,0 +1,17 @@
+
+# transformation-rules.json - Configuration file
+# contains the rules to apply to naming of the music files
+{
+# rules to transform some english characters
+
+# rules to transform Spanish characters: á, é, í, ó, ú, ü, ñ, ¿, ¡
+"á":"a",
+"é":"e",
+"í":"i",
+"ó":"o",
+"ú":"u",
+"ü":"u",
+"ñ":"n",
+"¿":"",
+"¡":""
+}
